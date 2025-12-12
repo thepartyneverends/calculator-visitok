@@ -42,6 +42,7 @@ $(document).ready(function(){
         priceForma = typeColor[color_format]["file"];
         pricePrint = typeColor[color_format]["print"] * tirSize;
         sum=pricePaper +  priceForma + pricePrint;
-        $("#final_price").text(sum);
+        $("#final-price").text(sum);
     });
+
 });
